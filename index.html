@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wallpaper Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+   <img src="wallpaper-logo.png" alt="Wallpaper Pro Logo">
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search wallpapers...">
+    <button id="searchBtn">Search</button>
+  </div>
+</header>
+
+<div class="filters">
+  <button>All</button>
+  <button id="favoritesBtn">Favorites ❤</button>
+  <button>Nature</button>
+  <button>Cars</button>
+  <button>Animals</button>
+  <button>Technology</button>
+  <button>Space</button>
+  <button>Mountains</button>
+  <button>Ocean</button>
+  <button>City</button>
+  <button>Gaming</button>
+</div>
+
+<div id="gallery" class="gallery"></div>
+<div id="loader" class="loader">Loading...</div>
+
+<!-- Modal -->
+<div id="modal" class="modal">
+  <span class="close">&times;</span>
+  <img id="modalImg">
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
