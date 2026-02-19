@@ -250,6 +250,10 @@ header img {
     margin-top: 250px;
   }
 
+  .icon-group {
+    display: flex;
+  }
+
   .modal {
     margin-top: 230px;
   }
