@@ -244,7 +244,7 @@ function showFavorites(buttonElement) {
   const favorites = getFavorites();
 
   if (!favorites || favorites.length === 0) {
-    gallery.innerHTML = "<h2 style='text-align:center;'>No Favorites Yet ❤️</h2>";
+    gallery.innerHTML = "<h2 style='text-align:center; color: black;'>No Favorites Yet ❤️</h2>";
     return;
   }
 
